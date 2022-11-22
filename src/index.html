@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+
+  <link rel="stylesheet" href="https://calclet.com/assets/bulmaswatch.lux.min.css">
+
+  <script src="./res/lib/ace-builds-1.4.12/src-min/ace.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./res/lib/ace-builds-1.4.12/src-min/mode-javascript.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./res/lib/ace-builds-1.4.12/src-min/theme-dracula.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./res/lib/ace-builds-1.4.12/src-min/worker-javascript.js" type="text/javascript" charset="utf-8"></script>
+
+  <!--<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval';">-->
+
+</head>
+<body>
+
+<div class="columns">
+    <div class="column is-one-fifths">
+
+        <aside class="menu">
+            <p class="menu-label">
+                General
+            </p>
+        </aside>
+    </div>
+    <div class="column is-two-fifths">
+      <div id="editor" style="height: 900px;"></div>
+    </div>
+    <div class="column is-two-fifths">
+      <div id="output" style="height: 900px;"></div>
+    </div>
+</div>
+
+<script src="./assets/js/jquery-3.6.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script>window.$ = window.jQuery = require('./assets/js/jquery-3.6.0.min.js');</script>
+<script src="./assets/js/d3.min.js"></script>
+<script src="./assets/js/numeric.js"></script>
+<script src="./assets/js/plot.js" type="text/javascript" charset="utf-8"></script>
+<script src="./assets/js/calclet.js" type="text/javascript" charset="utf-8"></script>
+
+
+</body>
+</html>

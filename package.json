@@ -1,0 +1,27 @@
+{
+  "name": "Calclet",
+  "version": "1.0.0",
+  "description": "A Computational Mathematics Workshop",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build:windows": "electron-builder --win --dir",
+    "dist:windows": "electron-builder --win",
+    "build:linux": "electron-builder --linux --dir",
+    "dist:linux": "electron-builder --linux",
+    "build:macos": "electron-builder --macos --dir",
+    "dist:macos": "electron-builder --macos"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sina-yeganeh/notepad-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^15.3.0",
+    "electron-builder": "^22.7.0"
+  }
+}
